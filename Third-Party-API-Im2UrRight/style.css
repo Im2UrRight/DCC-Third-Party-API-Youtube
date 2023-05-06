@@ -1,0 +1,108 @@
+body {
+  font-family: sans-serif;
+}
+
+.wrapper {
+  width: 73%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.controls, .results {
+  flex: 1 1 auto;
+  padding: 10px;
+}
+.results {
+  display: flex;
+  flex: 1 1 auto;
+  height: 100%;
+  min-height: 400px;
+  width:100%;
+}
+.results iframe {
+  margin-right: 10px;
+}
+form p:nth-of-type(1) {
+  margin-top: 0;
+}
+
+h1 {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+article p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+article p:nth-of-type(2) {
+  font-size: 14px;
+  line-height: 2;
+}
+
+nav {
+  margin-bottom: 50px;
+}
+
+.prev {
+  float: left;
+}
+
+.next {
+  float: right;
+}
+
+article {
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #ddd;
+  border: 1px solid #ccc;
+}
+
+img {
+  float: right;
+  margin-left: 20px;
+  max-width: 200px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+span {
+  background-color: #b3b3b3;
+  padding: 5px;
+  margin: 5px;
+}
+
+.max {
+  width: 3em;
+}
+
+.history button {
+  background: #ababab;
+  border: none;
+  border-radius: 6px;
+  margin:3px;
+  padding: 3px 6px;
+  transition: background .2s;
+}
+
+.history button:hover {
+  background: #e6e6e6
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #232323;
+    color: #fff;
+  }
+  .results {
+    background: #2b2b2b;
+  }
+}
